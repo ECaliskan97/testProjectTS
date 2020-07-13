@@ -16,6 +16,11 @@ public class MyClass {
 	}
 	
 	public List<List<String>> getValue2() {
+		int a = 5;
+		int b = 5;
+		if (a == b) {
+			return null;
+		}
 		return value2;
 	}
 	
